@@ -11,9 +11,8 @@ const config = {
     "@storybook/addon-interactions",
     "@storybook/storybook-addon-designs"
   ],
-  framework: {
-    name: "@storybook/react-vite",
-    options: {},
+  reactOptions: {
+    fastRefresh: true,
   },
   docs: {
     autodocs: "tag",
