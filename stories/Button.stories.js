@@ -1,4 +1,7 @@
+import { withDesign } from "storybook-addon-designs";
 import { Button } from './Button';
+
+
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -17,10 +20,11 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary = {
-  args: {
-    primary: true,
-    label: 'Button',
+export const Primary = () => <Button primary label="Button" />;
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/xyVgpCbk6VJUX6iWkll6C1/library-test?type=design&node-id=1%3A2&mode=design&t=Di0OgKmLs5gAm3v5-1',
   },
 };
 
