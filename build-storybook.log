@@ -1,0 +1,91 @@
+@storybook/cli v7.1.0
+
+info => Cleaning outputDir: /var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv
+info => Loading presets
+info => Building manager..
+info => Manager built (394 ms)
+info => Copying static files: /Users/lukas.mikovec/designsystem/majoneza/node_modules/@storybook/manager/static at /var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/sb-common-assets
+vite v4.4.4 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/jest-util/build/requireOrImportModule.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "url" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/jest-util/build/requireOrImportModule.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "fs" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/graceful-fs/graceful-fs.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "constants" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/graceful-fs/polyfills.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/graceful-fs/legacy-streams.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/picomatch/lib/picomatch.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/picomatch/lib/utils.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/lukas.mikovec/designsystem/majoneza/node_modules/picomatch/lib/constants.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+node_modules/telejson/dist/index.mjs (1394:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+node_modules/telejson/dist/index.mjs (1397:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 1385 modules transformed.
+rendering chunks...
+[plugin:vite:reporter] 
+(!) /Users/lukas.mikovec/designsystem/majoneza/node_modules/@storybook/components/dist/index.mjs is dynamically imported by /Users/lukas.mikovec/designsystem/majoneza/node_modules/@storybook/blocks/dist/index.mjs but also statically imported by /Users/lukas.mikovec/designsystem/majoneza/node_modules/@storybook/blocks/dist/Color-6VNJS4EI.mjs, /Users/lukas.mikovec/designsystem/majoneza/node_modules/@storybook/blocks/dist/index.mjs, dynamic import will not move module into another chunk.
+
+computing gzip size...
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/youtube-9f26eb0b.svg                           0.72 kB │ gzip:   0.36 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/tutorials-adff6365.svg                         1.27 kB │ gzip:   0.63 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/discord-f7d1b78c.svg                           2.41 kB │ gzip:   1.15 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/github-cdfc3270.svg                            2.72 kB │ gzip:   1.28 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/context-c612d889.png                           6.12 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/styling-c83082e0.png                           7.24 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/iframe.html                                          12.72 kB │ gzip:   3.57 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/docs-5b0c7100.png                             27.88 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/share-b59d6c77.png                            40.77 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/accessibility-cd6d60f7.png                    42.34 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/figma-plugin-b0a5ad2d.png                     44.25 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/theming-b6e819c3.png                          44.37 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/testing-6a59f681.png                          49.31 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/addon-library-bc7ba705.png                   467.37 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Header-a6911580.css                            0.51 kB │ gzip:   0.31 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Button-ab8d41c9.css                            0.52 kB │ gzip:   0.29 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Page.stories-ece1482a.css                      0.93 kB │ gzip:   0.39 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/assert-a1982797.js                             0.13 kB │ gzip:   0.14 kB │ map:     0.52 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-1e5c59db.js                            0.19 kB │ gzip:   0.19 kB │ map:     0.60 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-d475d2ea.js                              0.21 kB │ gzip:   0.17 kB │ map:     0.83 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-186b3228.js                              0.25 kB │ gzip:   0.20 kB │ map:     0.10 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/_commonjs-dynamic-modules-302442b1.js          0.30 kB │ gzip:   0.24 kB │ map:     0.12 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/WithTooltip-I4CCNYWD-36b84aaf.js               0.50 kB │ gzip:   0.29 kB │ map:     0.11 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/syntaxhighlighter-SIPZPD4I-61999255.js         0.52 kB │ gzip:   0.31 kB │ map:     0.12 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-1d576ef5.js                              0.53 kB │ gzip:   0.34 kB │ map:     4.28 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/react-18-d4e41006.js                           0.59 kB │ gzip:   0.38 kB │ map:     2.63 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-a4625943.js                            0.61 kB │ gzip:   0.37 kB │ map:     0.56 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-5ef354f3.js                            0.69 kB │ gzip:   0.49 kB │ map:     3.90 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/_commonjsHelpers-042e6b4d.js                   0.78 kB │ gzip:   0.44 kB │ map:     0.11 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-356e4a49.js                              0.81 kB │ gzip:   0.51 kB │ map:     3.27 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-1fc0ca9a.js                              0.84 kB │ gzip:   0.55 kB │ map:     4.11 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-b79ea209.js                            0.90 kB │ gzip:   0.60 kB │ map:     2.94 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Header.stories-d80c89ac.js                     0.92 kB │ gzip:   0.49 kB │ map:     0.11 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/jsx-runtime-91a467a5.js                        1.02 kB │ gzip:   0.64 kB │ map:     2.31 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/DocsRenderer-3PUGWF3O-1eb70168.js              1.36 kB │ gzip:   0.73 kB │ map:     2.59 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Button-d13ffbdf.js                             1.48 kB │ gzip:   0.70 kB │ map:     1.89 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Button.stories-b8c9a50b.js                     1.58 kB │ gzip:   0.61 kB │ map:     0.13 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Header-95c7311b.js                             1.70 kB │ gzip:   0.84 kB │ map:     3.07 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-a60aa466.js                            2.40 kB │ gzip:   1.25 kB │ map:    11.04 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-d37d4223.js                              2.63 kB │ gzip:   1.30 kB │ map:     7.48 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-770cc08b.js                            3.22 kB │ gzip:   1.39 kB │ map:    10.23 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/iframe-b6634a53.js                             5.24 kB │ gzip:   1.83 kB │ map:     5.26 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-8db94870.js                              7.21 kB │ gzip:   2.95 kB │ map:    15.73 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-d8c963a4.js                            7.67 kB │ gzip:   1.60 kB │ map:    14.21 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-25cb0eda.js                            8.33 kB │ gzip:   3.21 kB │ map:    29.41 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-890dd1b5.js                             13.55 kB │ gzip:   5.09 kB │ map:    53.14 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-0b7c072b.js                             14.39 kB │ gzip:   4.75 kB │ map:    49.42 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/GlobalScrollAreaStyles-DZEYMYDM-94ebe2ee.js   15.10 kB │ gzip:   2.83 kB │ map:    21.43 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Configure-92fb99e6.js                         17.08 kB │ gzip:   7.75 kB │ map:    26.54 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Color-6VNJS4EI-48cbb356.js                    17.66 kB │ gzip:   6.77 kB │ map:    59.68 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/OverlayScrollbars-OGE3XJTA-5fb73e1f.js        28.94 kB │ gzip:  14.21 kB │ map:   108.11 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/preview-a5b437e6.js                           94.96 kB │ gzip:  31.59 kB │ map:   351.02 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-379ca6ec.js                            212.52 kB │ gzip:  66.44 kB │ map:   653.38 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/config-fc4108d1.js                           213.51 kB │ gzip:  66.38 kB │ map:   803.45 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/Page.stories-ce00816a.js                     293.00 kB │ gzip:  72.32 kB │ map: 1,086.64 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/index-447dc6dd.js                            515.87 kB │ gzip: 169.48 kB │ map: 1,483.07 kB
+../../../../var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv/assets/formatter-OJ5LH2CX-9aaba125.js               601.70 kB │ gzip: 185.08 kB │ map: 1,318.62 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.66s
+info => Output directory: /var/folders/vw/2h81xj4s1qgcr82kc3dvcdkm0000gn/T/chromatic--25551-bOSyjYFQbdTv
